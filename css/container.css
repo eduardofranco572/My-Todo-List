@@ -1,0 +1,359 @@
+.menu {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .25);
+    backdrop-filter: blur(10px);
+    border-bottom: none;
+    height: 12rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.tarefas {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius:  0 0 1rem 1rem;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.titulo h1 {
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.button-add {
+    display: flex;
+    justify-content: center;
+}
+
+.button-add button {
+    width: 10rem;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-add span {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.barra {
+    width: 100%;
+    height: 1px;
+    background-color:rgba(255, 255, 255, .25);
+    margin-top: 3rem;
+}
+
+.tarefas {
+    padding: 1rem;
+}
+
+.barra-tarefas {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-tarefas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-tarefas h1 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    font-family: cursive;
+}
+.filtrar input {
+    border-radius: 5px;
+    width: 7rem;
+    padding: 3px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+input::-webkit-input-placeholder {
+    padding-left: 5px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.list {
+    width: 80%;
+    height: 8rem;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.categoria p {
+    margin: 0;
+    font-size: 14px;
+    color: #df8600fc;
+    font-weight: 500;
+}
+
+.hora p {
+    font-size: 14px;
+}
+
+.nome h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.part1 {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.part2 {
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.alinha-p2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.feito span {
+    cursor: pointer;
+    font-size: 24px;
+    user-select: none;
+}
+
+.delete span {
+    cursor: pointer;
+    font-size: 24px;
+    user-select: none;
+}
+
+.feito span:hover {
+    color: #18b918;;
+    transition: 0.5s;
+}
+
+
+.delete span:hover {
+    color: rgb(197, 11, 11);
+    transition: 0.5s;
+}
+
+.dia p {
+    font-size: 14px;
+    color: white;
+}
+
+.postar {
+    display: none;
+}
+
+.elemento-post {
+    height: 25rem;
+    position: relative;
+    margin-top: -12rem;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .25);
+    backdrop-filter: blur(10px);
+    border-bottom: none;
+    border-radius: 1rem 1rem 0 0;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.alinha-form p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.button-postar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.alarme {
+    display: flex;
+    align-items: center;
+}
+
+
+.alinha-form input {
+    padding: 8px;
+    width: 18rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: black;
+    background-color: white;
+}
+
+input:focus {
+    border: none;
+}
+
+.button-postar button {
+    width: 8rem;
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 0.5rem;
+}
+
+.esticont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.swal2-container.swal2-center>.swal2-popup{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .25);
+    backdrop-filter: blur(10px);
+    color: white; 
+}
+
+.linhafeito{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.efeito{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+@keyframes slideInTop {
+    from {
+        transform: translateY(-50px);
+        opacity: 0.5;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#aparece{
+    animation: slideInTop 1s ease-in 1s both;
+    font-size: 55px;
+}
+
+
+.swal2-container.swal2-top-end>.swal2-popup, .swal2-container.swal2-top-right>.swal2-popup{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .25);
+    backdrop-filter: blur(10px);
+    color: white; 
+}
+
+.trocaBack{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.trocaBack span{
+    font-size: 42px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+.linktrocafundo{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 3rem 0.5rem 0;
+    display: none;
+}
+
+.inputlink{
+    padding: 8px;
+    width: 18rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: transparent;
+    margin: 0 0.5rem 0rem 0;
+}
+
+.linktrocafundo button{
+    padding: 8px;
+    width: 5rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+.linktrocafundo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.inputlink:focus {
+    border: 1px solid white;
+}
+
+.inputlink:focus {
+    outline: none;
+    
+}
