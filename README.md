@@ -1,6 +1,6 @@
 # My-Todo-List
 
-Olá, Meu nome é Eduardo e esse é o projeto de um web site Todo list. No qual é consumido foi realizado utilizando Jquery aonde consiste numa lista de tarefas, na qual o usuário pode criar tarefas terão alarmes para lembra o usuário, o usuário pode excluir e colocar como feita a tarefa, e o usuário pode trocar o background do site para o qual melhor agrada.
+Olá, Meu nome é Eduardo e esse é o projeto de um website Todo list. No qual é consumido foi realizado utilizando Jquery aonde consiste numa lista de tarefas, na qual o usuário pode criar tarefas terão alarmes para lembra o usuário, o usuário pode excluir e colocar como feita a tarefa, e o usuário pode trocar o background do site para o qual melhor agrada.
 <br>
 <br>
  <div align="center">
